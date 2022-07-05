@@ -1,0 +1,232 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color:#212121 ;
+  --accent-color: #2196f3;
+  --white-color: #FFFFFF;
+  --background-color: #2F303A;
+  --button-hover-color: #188ce8;
+  --btn-portfolio: #F5F4FA;
+  --footer-link: rgba(255, 255, 255, 0.6);
+  --filter-background: #EEEEEE
+  
+}
+body {
+  color:var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/*Exceptions*/
+.list{
+  text-decoration: none;
+  list-style: none;
+}
+.link,
+.pun{
+	text-decoration: none;
+}
+.section-title,
+.section-subtitle,
+.section-examples,
+.section-testimotional,
+.section-team,
+.project-title{
+  color: var(--title-text-color);
+} 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*Logo*/
+.logo{
+  color: var(--title-text-color);
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer{
+  color: var(--white-color);
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus,
+.logo-footer:hover,
+.logo-footer:focus{
+  color: var(--accent-color);
+}
+.logo-title,
+.logo-footer>span{
+ color: var(--accent-color);
+}
+
+.pun{
+  color: var(--title-text-color);
+}
+/*site-info-nav*/
+.site-nav,
+.info-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em
+}
+
+.pun:hover,
+.pun:focus{
+  color: var(--accent-color)
+}
+.current{
+  color: var(--accent-color);
+}
+.mail-link,
+.contakt-link{
+  color: var(--primary-text-color);
+  text-decoration: none
+}
+.mail-link:hover,
+.mail-link:focus,
+.contakt-link:hover,
+.contakt-link:focus{
+  color: var(--accent-color);
+}
+/*Hero*/
+.page-hero{
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*Btn*/
+.btn-primary{
+ font-family: roboto, sans-serif;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.87;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+}
+.btn-secondary,
+.btn-primary-prtf{
+  color: var(--title-text-color);
+  background-color: var(--btn-portfolio);
+  cursor: pointer;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.btn-primary,
+.btn-primary-prtf{
+  color:var(--white-color);
+  background-color:var(--accent-color);
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: var(--button-hover-color);
+}
+.btn-secondary:hover,
+.btn-secondary:focus{
+  color: var(--white-color);
+  background-color: var(--accent-color)
+}
+/*Benefits*/
+.title-advantages{
+  line-height: 1.71; 
+}
+.section-subtitle{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase
+}
+
+.section-examples,
+.section-testimotional{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/*Team*/
+.workers{
+  background-color: var(--btn-portfolio);
+}
+.section-team
+{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team{
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.project-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em
+}
+.project-description{
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87
+}
+/*Footer*/
+.footer{
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+.footer-adress{
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.footer-mail,
+.footer-num{
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-num:hover,
+.footer-num:focus,
+.footer-adress:hover,
+.footer-adress:focus{
+  color: var(--accent-color);
+}
